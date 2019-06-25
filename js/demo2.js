@@ -5,9 +5,9 @@
 
     //open and close menu when the button is clicked
 	var open = false;
-	button.addEventListener('click', handler, false);
+	button.addEventListener('click', handler1, false);
 
-	function handler(){
+	function handler1(){
 	  if(!open){
 	    this.innerHTML = "Close";
 	    classie.add(wrapper, 'opened-nav');
@@ -21,15 +21,6 @@
 	function closeWrapper(){
 		classie.remove(wrapper, 'opened-nav');
 	}
-	$('#cn-wrapper').on('click', function () {
-    $('#component').hide();
-    $('#section1').fadeIn();
-    $('#section2').fadeIn();
-    $('#section3').fadeIn();
-    $('#section4').fadeIn();
-    $('#section5').fadeIn();
-    $('#section6').fadeIn();
-    $('#section7').fadeIn();
-});
+    
 
 })();

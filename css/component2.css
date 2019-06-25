@@ -39,10 +39,11 @@ body {
 
 .header__logo-box {
     position: absolute;
-    top: 1rem;
-    left: 1rem;
-    text-align: left;
+    top: 0.05rem;
+    right: 0.5rem;
+    text-align: right;
     text-transform: capitalize;
+    backface-visibility: hidden;
  }
 
  .heading-primary {
