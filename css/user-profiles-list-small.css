@@ -15,12 +15,17 @@
     text-align:left;
     font:normal 14px sans-serif;
 
-    background-color:#f4f8fa;
+    background-color:#e6eef2;
     border:1px solid #dbe3e7;
     box-shadow: 0 2px 3px #dbe3e7;
+    border-radius: 25px;
 
     width:260px;
     margin: 12px;
+}
+.user-profiles-list-small :hover {
+  background-color: #ccffcc;
+  color: white;
 }
 
 .user-profiles-list-small .user-avatar{
@@ -53,6 +58,17 @@
     color:#808d93;
     padding-top:4px;
 }
+
+.user-profiles-list-small .user-name .feature-box { 
+  margin-top: -12rem;
+  top: -15rem;
+  padding: 20rem 0;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
+  transform: skewY(-7deg);
+  background-size: cover; }
+  .features.box > * {
+     transform: skewY(7deg); }
+
 
 .user-profiles-list-small .delete{
     background-color:#de4a4a;
